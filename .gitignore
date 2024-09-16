@@ -1,0 +1,20 @@
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore Go build files
+*.out
+*.o
+
+# Ignore directories
+/vendor/
+node_modules/

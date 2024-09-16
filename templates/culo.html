@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Builder</title>
+<link rel="stylesheet" href="/static/styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Character Builder</h1>
+	
+	 <label>Browser Select</label>
+ <select class="browser-default">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Fighter</option>
+    <option value="2">Barbarian</option>
+    <option value="3">Option 3</option>
+  </select>
+    <form action="/update" method="post">
+        <label for="strength">Strength:</label>
+        <input type="number" id="strength" name="strength" value="{{ .stats.Strength }}"><br>
+		
+        <label for="vigor">Vigor:</label>
+        <input type="number" id="vigor" name="vigor" value="{{ .stats.Vigor }}"><br>
+		
+        <label for="agility">Agility:</label>
+        <input type="number" id="agility" name="agility" value="{{ .stats.Agility }}"><br>
+		
+        <label for="dexterity">Dexterity:</label>
+        <input type="number" id="dexterity" name="dexterity" value="{{ .stats.Dexterity }}"><br>
+		
+        <label for="will">Will:</label>
+        <input type="number" id="will" name="will" value="{{ .stats.Will }}"><br>
+		
+        <label for="knowledge">Knowledge:</label>
+        <input type="number" id="knowledge" name="knowledge" value="{{ .stats.Knowledge }}"><br>
+		
+		<label for="resourcefulness,">Resourcefulness:</label>
+        <input type="number" id="resourcefulness" name="resourcefulness" value="{{ .stats.Resourcefulness }}"><br>
+		
+        <input type="submit" value="Update Stats">
+    </form>
+
+    <h2>Character Stats</h2>
+    <p>Strength: {{ .stats.Strength }}</p>
+    <p>Vigor: {{ .stats.Vigor }}</p>
+    <p>Agility: {{ .stats.Agility }}</p>
+    <p>Dexterity: {{ .stats.Dexterity }}</p>
+    <p>Will: {{ .stats.Will }}</p>
+    <p>Knowledge: {{ .stats.Knowledge }}</p>
+	<p>Resourcefulness: {{ .stats.Resourcefulness }}</p>
+    <p>Health: {{ .stats.Health }}</p>
+	<p>Health Recovery Bonus: {{ .stats.HealthRecovery }}%</p>
+	<p>Move Speed: {{ .stats.MoveSpeed }} </p>
+	<p>Move Speed Percentage: {{ .stats.MoveSpeedCalc }}%</p>
+    <p>Action Speed: {{ .stats.ActionSpeed }}%</p>
+	<p>Manual Dexterity: {{ .stats.ManualDexterity }}%</p>
+	<p>Equip Speed: {{ .stats.EquipSpeed }}%</p>
+	<p>Regular Interaction Speed: {{ .stats.RegularInteraction }}%</p>
+	<p>Buff Duration: {{ .stats.BuffDuration }}%</p>
+	<p>Physical Power: {{ .stats.PhysicalPower }}%</p>
+	<p>Debuff Duration: {{ .stats.DebuffDuration  }}%</p>
+	<p>Magic Resistance: {{ .stats.MagicResistance }} points</p>
+	
+	<p>Magical Power: {{ .stats.MagicalPower }}%</p>
+	<p>Character Class: {{ .stats.CharacterClass }}%</p>
+	
+	<h1>Character Equipment Grid</h1>
+    <div class="equipment-grid">
+        <div class="equipment-square" onclick="equipItem('main-hand-1')">Main Hand 1</div>
+        <div class="equipment-square" onclick="equipItem('main-hand-2')">Main Hand 2</div>
+        <div class="equipment-square" onclick="equipItem('second-hand-1')">Second Hand 1</div>
+        <div class="equipment-square" onclick="equipItem('second-hand-2')">Second Hand 2</div>
+        <div class="equipment-square" onclick="equipItem('helmet')">Helmet</div>
+        <div class="equipment-square" onclick="equipItem('necklace')">Necklace</div>
+        <div class="equipment-square" onclick="equipItem('body-chest')">Body Chest</div>
+        <div class="equipment-square" onclick="equipItem('gloves')">Gloves</div>
+        <div class="equipment-square" onclick="equipItem('cloak')">Cloak</div>
+        <div class="equipment-square" onclick="equipItem('pants')">Pants</div>
+        <div class="equipment-square" onclick="equipItem('shoes')">Shoes</div>
+        <div class="equipment-square" onclick="equipItem('ring-1')">Ring 1</div>
+        <div class="equipment-square" onclick="equipItem('ring-2')">Ring 2</div>
+    </div>
+	
+
+</body>
+</html>
+

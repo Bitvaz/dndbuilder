@@ -1,0 +1,13 @@
+{
+   "Name": "Physical_Power",
+     "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 100.0,
+            "Value": 100.0
+          }
+        ]
+}
