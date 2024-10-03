@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        .form-container {
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space between text and dropdown */
+            margin: 20px; /* Add margin for aesthetics */
+        }
+        .form-container label {
+            margin-right: 10px; /* Add some space between label and dropdown */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Example Form</h1>
+
+    <form action="/submit" method="post">
+        <div class="form-container">
+            <label for="text">Some Text:</label>
+            <span>Text on the right side</span>
+            <select name="options" id="options" class="browser-default">
+                <option value="" disabled selected>Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

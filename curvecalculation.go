@@ -7,16 +7,19 @@ import (
 	"os"
 )
 
+// struct for functions
 type Key struct {
 	Time  float64 `json:"Time"`
 	Value float64 `json:"Value"`
 }
 
+// struct for functions
 type Curve struct {
 	Name string `json:"Name"`
 	Keys []Key  `json:"Keys"`
 }
 
+// CARGA LA CURVA JSON
 func LoadCurveData(filename string) (Curve, error) {
 	file, err := os.Open(filename)
 	if err != nil {
@@ -38,6 +41,7 @@ func LoadCurveData(filename string) (Curve, error) {
 	return curve, nil
 }
 
+// EXTRAE VALOR DE CURVA
 func GetCurveValue(curve Curve, rating float64) float64 {
 	if len(curve.Keys) == 0 {
 		return 0 // Return 0 if there's no data
@@ -65,6 +69,7 @@ func GetCurveValue(curve Curve, rating float64) float64 {
 	return 0 // Default case, should not reach here
 }
 
+// EJECUTA CALCULO CURVA HYBRIDA 2
 func runcurvehybridx(varstatone int, varstattwo int, jsonfile string) float64 {
 	curve, err := LoadCurveData(jsonfile)
 	if err != nil {
@@ -76,6 +81,7 @@ func runcurvehybridx(varstatone int, varstattwo int, jsonfile string) float64 {
 	return resultcurve
 }
 
+// EJECUTA CALCULO CURVA HYBRIDA
 func runcurvehybrid(varstatone int, varstattwo int, jsonfile string) float64 {
 	curve, err := LoadCurveData(jsonfile)
 	if err != nil {
@@ -87,6 +93,7 @@ func runcurvehybrid(varstatone int, varstattwo int, jsonfile string) float64 {
 	return resultcurve
 }
 
+// EJECUTA CALCULO CURVA
 func runcurve(varstatone int, jsonfile string) float64 {
 	curve, err := LoadCurveData(jsonfile)
 	if err != nil {

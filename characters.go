@@ -1,18 +1,31 @@
 package main
 
-// STRUCT STAT
+// STRUCT STATS
 type Stats struct {
-	Strength        int `form:"strength"`
-	Vigor           int `form:"vigor"`
-	Agility         int `form:"agility"`
-	Dexterity       int `form:"dexterity"`
-	Will            int `form:"will"`
-	Knowledge       int `form:"knowledge"`
-	Resourcefulness int `form:"resourcefulness"`
+	Strength        int
+	Vigor           int
+	Agility         int
+	Dexterity       int
+	Will            int
+	Knowledge       int
+	Resourcefulness int
+}
+
+type Character struct {
+	Stats         Stats // Assuming 'Stats' is your stats struct
+	Computed      Computed_Stats
+	SelectedItem  string
+	SelectedClass string
+}
+
+type WeaponStats struct {
+	Attackone   float64
+	Attacktwo   float64
+	Attackthree float64
 }
 
 // STRUCT COMPLETE STATS
-type ComputedStats struct {
+type Computed_Stats struct {
 	Health                  float64
 	ActionSpeed             float64
 	RegularInteractionSpeed float64
@@ -33,16 +46,29 @@ type ComputedStats struct {
 	MagicalInteractionSpeed float64
 	Persuasiveness          float64
 	CooldownReduction       float64
+	PhysicalDamageReduction float64
+	PhysicalHealing         int
+	MagicalHealing          int
+	Luck                    int
+	SpellRecoveryBonus      float64
+	ArmorPenetration        float64
+	MagicPenetration        float64
+	HeadshotReduction       float64
+	ProjectileReduction     float64
+	PrimaryWeapon           WeaponStats
+	SecundaryWeapon         WeaponStats
+	PrimaryImpactPower      int
+	SecondaryImpactPower    int
 }
 
 var characterStats = Stats{
-	Strength:        15,
-	Vigor:           15,
-	Agility:         15,
-	Dexterity:       15,
-	Will:            15,
-	Knowledge:       15,
-	Resourcefulness: 15,
+	Strength:        1,
+	Vigor:           1,
+	Agility:         1,
+	Dexterity:       1,
+	Will:            1,
+	Knowledge:       1,
+	Resourcefulness: 1,
 }
 
 var classFighter = Stats{
@@ -134,3 +160,23 @@ var classRanger = Stats{
 	Knowledge:       12,
 	Resourcefulness: 25,
 }
+
+/*var newStats = Stats{
+	Strength:        1,
+	Vigor:           1,
+	Agility:         1,
+	Dexterity:       1,
+	Will:            1,
+	Knowledge:       1,
+	Resourcefulness: 1,
+}*/
+/*
+var inewStats = Stats{
+	Strength:        1,
+	Vigor:           1,
+	Agility:         1,
+	Dexterity:       1,
+	Will:            1,
+	Knowledge:       1,
+	Resourcefulness: 1,
+}*/

@@ -1,89 +1,179 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Builder</title>
-	<style>
-        .equipment-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 100px); /* Adjust columns */
-            grid-template-rows: repeat(5, 100px); /* Adjust rows */
-            gap: 10px;
-            justify-content: center;
-            margin: 20px auto;
-        }
-        .equipment-square {
-            width: 100px;
-            height: 100px;
-            border: 2px solid #333;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #eee;
-            cursor: pointer;
-            position: relative;
-        }
-        .equipment-square img {
-            width: 80%;
-            height: auto;
-        }
-        .equipment-square:nth-child(1) { grid-area: 1 / 1 / 2 / 2; } /* Main Hand 1 */
-        .equipment-square:nth-child(2) { grid-area: 1 / 2 / 2 / 3; } /* Main Hand 2 */
-        .equipment-square:nth-child(3) { grid-area: 1 / 3 / 2 / 4; } /* Second Hand 1 */
-        .equipment-square:nth-child(4) { grid-area: 2 / 1 / 3 / 2; } /* Second Hand 2 */
-        .equipment-square:nth-child(5) { grid-area: 2 / 2 / 3 / 3; } /* Helmet */
-        .equipment-square:nth-child(6) { grid-area: 2 / 3 / 3 / 4; } /* Necklace */
-        .equipment-square:nth-child(7) { grid-area: 3 / 1 / 4 / 2; } /* Body Chest */
-        .equipment-square:nth-child(8) { grid-area: 3 / 2 / 4 / 3; } /* Gloves */
-        .equipment-square:nth-child(9) { grid-area: 3 / 3 / 4 / 4; } /* Cloak */
-        .equipment-square:nth-child(10) { grid-area: 4 / 1 / 5 / 2; } /* Pants */
-        .equipment-square:nth-child(11) { grid-area: 4 / 2 / 5 / 3; } /* Shoes */
-        .equipment-square:nth-child(12) { grid-area: 4 / 3 / 5 / 4; } /* Ring 1 */
-        .equipment-square:nth-child(13) { grid-area: 5 / 2 / 6 / 3; } /* Ring 2 */
-    </style>
+	<link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+	
 </head>
 <body>
     <h1>Character Builder</h1>
-	
-	 <label>Browser Select</label>
- <form action="/update" method="post">
-  <select name="classSelection" class="browser-default">
-    <option value="" disabled selected>Choose your option</option>
-    <option value="1">Fighter</option>
-    <option value="2">Barbarian</option>
-    <option value="3">Rogue</option>
-	<option value="4">Wizard</option>
-    <option value="5">Cleric</option>
-    <option value="6">Warlock</option>
-	<option value="7">Bard</option>
-    <option value="8">Druid</option>
-	<option value="9">Ranger</option>
-  </select>
-  <button type="submit">Submit</button>
-</form>
- <form action="/update" method="post">
+	<!-- Class Selection -->
+<form id="classForm" method="get" action="">
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+        <div class="dropdown-group">
+            <label for="classselection">Select Class</label>
+            <select name="classSelection" id="classselection" class="browser-default" onchange="updateFormAction()">
+                <option value="" disabled selected>Select a class</option>
+                <option value="1">Fighter</option>
+                <option value="2">Barbarian</option>
+                <option value="3">Rogue</option>
+                <option value="4">Wizard</option>
+                <option value="5">Cleric</option>
+                <option value="6">Warlock</option>
+                <option value="7">Bard</option>
+                <option value="8">Druid</option>
+                <option value="9">Ranger</option>
+            </select>
+        </div>
+
+        <div class="classselected">
+            <label for="classselected">Class Selected: {{ .printclass }}</label>
+        </div>
+    </div>
+	 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+		<div class="statsselected">
+        <!-- Character Stats -->
         <label for="strength">Strength:</label>
         <input type="number" id="strength" name="strength" value="{{ .stats.Strength }}"><br>
-		
         <label for="vigor">Vigor:</label>
         <input type="number" id="vigor" name="vigor" value="{{ .stats.Vigor }}"><br>
-		
         <label for="agility">Agility:</label>
         <input type="number" id="agility" name="agility" value="{{ .stats.Agility }}"><br>
-		
         <label for="dexterity">Dexterity:</label>
         <input type="number" id="dexterity" name="dexterity" value="{{ .stats.Dexterity }}"><br>
-		
         <label for="will">Will:</label>
         <input type="number" id="will" name="will" value="{{ .stats.Will }}"><br>
-		
         <label for="knowledge">Knowledge:</label>
         <input type="number" id="knowledge" name="knowledge" value="{{ .stats.Knowledge }}"><br>
-		
-		<label for="resourcefulness,">Resourcefulness:</label>
+        <label for="resourcefulness">Resourcefulness:</label>
         <input type="number" id="resourcefulness" name="resourcefulness" value="{{ .stats.Resourcefulness }}"><br>
+        <!-- Submit button -->
+		</div>
+    <input type="submit" value="Update Stats">
+	</div>
+</form>
+
+<form id="itemForm" method="get" action="">
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+        <!-- Dropdown for Helmet -->
+        <div class="dropdown-group">
+            <label for="itemSelect">Helmet</label>
+            <select id="itemSelect" name="itemhelmet">
+                <option value="">Select a helmet</option>
+                {{range .helmetlist}}
+                    <option value="{{.Name}}">{{.Name}}</option>
+                {{end}}
+            </select>
+        </div>
+
+		<div class="dropdown-group">
+            <label for="rarityselect">Rarity</label>
+            <select id="rarityselect" name="rarityselect">
+                <option value="">Select armor</option>
+                <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+            </select>
+			
+        </div>
 		
-        <input type="submit" value="Update Stats">
-    </form>
+		<div class="dropdown-group">
+            <label for="enchantmentSelect">Item Armor Rating</label>
+            <select id="enchantmentSelect" name="armorrating">
+				<option value="">Select Armor Rating</option>
+                {{range .itemratingsone}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+			
+        </div>
+	<input type="submit" value="Update Stats">
+    </div>
+
+    <!-- Update button -->
+    
+</form>
+
+<form id="itemForm" method="get" action="">
+    <div class="dropdown-group">
+        <label for="itemSelect">Chest</label>
+        <select id="itemSelect" name="itemchest">
+			<option value="">Select a chest</option>
+            {{range .chestlist}}
+                <option value="{{.Name}}">{{.Name}}</option>
+            {{end}}
+        </select>
+    </div>
+    <input type="submit" value="Update Stats">
+</form>
+
+<form id="itemForm" method="get" action="">
+    <div class="dropdown-group">
+        <label for="itemSelect">Gloves</label>
+        <select id="itemSelect" name="itemgloves">
+			<option value="">Select a gloves</option>
+            {{range .gloveslist}}
+                <option value="{{.Name}}">{{.Name}}</option>
+            {{end}}
+        </select>
+    </div>
+    <input type="submit" value="Update Stats">
+</form>
+<form id="itemForm" method="get" action="">
+    <div class="dropdown-group">
+        <label for="itemSelect">Pants</label>
+        <select id="itemSelect" name="itempants">
+			<option value="">Select a pants</option>
+            {{range .pantslist}}
+                <option value="{{.Name}}">{{.Name}}</option>
+            {{end}}
+        </select>
+    </div>
+    <input type="submit" value="Update Stats">
+</form>
+<form id="itemForm" method="get" action="">
+    <div class="dropdown-group">
+        <label for="itemSelect">Boots</label>
+        <select id="itemSelect" name="itemboots">
+			<option value="">Select a boots</option>
+            {{range .bootslist}}
+                <option value="{{.Name}}">{{.Name}}</option>
+            {{end}}
+        </select>
+    </div>
+    <input type="submit" value="Update Stats">
+</form>
+<form id="itemForm" method="get" action="">
+    <div class="dropdown-group">
+        <label for="itemSelect">Cloak</label>
+        <select id="itemSelect" name="itemcloak">
+			<option value="">Select a cloak</option>
+            {{range .cloaklist}}
+                <option value="{{.Name}}">{{.Name}}</option>
+            {{end}}
+        </select>
+    </div>
+    <input type="submit" value="Update Stats">
+
+	
+	<script>
+function updateFormAction() {
+    var classSelection = document.getElementById("classselection").value;
+    if (classSelection) {
+        // Set the action to the route that handles the class selection
+        document.getElementById("classForm").action = "/charbuilder/" + classSelection;
+    } else {
+        // Reset the action if no class is selected
+        document.getElementById("classForm").action = "";
+    }
+}
+</script>
 
     <h2>Character Stats</h2>
   
@@ -123,23 +213,12 @@
 	
 	<p>Magic Resistance: {{ .computedstats.MagicResistance }} points</p>
 	
+	<p>Magic Resistance: {{ .computedstats.MagicResistance }} points</p>
 	
-	<h1>Character Equipment Grid</h1>
-    <div class="equipment-grid">
-        <div class="equipment-square" onclick="equipItem('main-hand-1')">Main Hand 1</div>
-        <div class="equipment-square" onclick="equipItem('main-hand-2')">Main Hand 2</div>
-        <div class="equipment-square" onclick="equipItem('second-hand-1')">Second Hand 1</div>
-        <div class="equipment-square" onclick="equipItem('second-hand-2')">Second Hand 2</div>
-        <div class="equipment-square" onclick="equipItem('helmet')">Helmet</div>
-        <div class="equipment-square" onclick="equipItem('necklace')">Necklace</div>
-        <div class="equipment-square" onclick="equipItem('body-chest')">Body Chest</div>
-        <div class="equipment-square" onclick="equipItem('gloves')">Gloves</div>
-        <div class="equipment-square" onclick="equipItem('cloak')">Cloak</div>
-        <div class="equipment-square" onclick="equipItem('pants')">Pants</div>
-        <div class="equipment-square" onclick="equipItem('shoes')">Shoes</div>
-        <div class="equipment-square" onclick="equipItem('ring-1')">Ring 1</div>
-        <div class="equipment-square" onclick="equipItem('ring-2')">Ring 2</div>
-    </div>
+	<p>Physical Damage Reduction {{ .computedstats.PhysicalDamageReduction }} </p>
+	
+	<p>test {{ .test }} </p>
+	<p>test {{ .testdo }} </p>
 	
 
 </body>

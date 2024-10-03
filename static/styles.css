@@ -1,49 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+.form-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: center; /* Vertically center the items */
 }
 
-/* The Scrollable Box */
-.scroll-box {
-    width: 300px;          /* Width of the box */
-    height: 200px;         /* Height of the box */
-    border: 2px solid #333; /* Border of the box */
-    border-radius: 10px;   /* Rounded corners */
-    padding: 10px;
-    overflow-y: auto;      /* Vertical scroll */
-    background-color: #fff;
-}
-
-/* Styling the items inside the box */
-.scroll-box ul {
-    list-style-type: none; /* Remove bullets */
-}
-
-.scroll-box li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-/* Optional: Customize scrollbar appearance */
-.scroll-box::-webkit-scrollbar {
-    width: 10px;
-}
-
-.scroll-box::-webkit-scrollbar-thumb {
-    background-color: #888; /* Scrollbar color */
-    border-radius: 5px;
-}
-
-.scroll-box::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
+.dropdown-group {
+    margin-right: 20px; /* Space between dropdown groups */
 }

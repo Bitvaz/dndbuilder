@@ -8,36 +8,77 @@ import (
 
 func charBuilderHandler(c *gin.Context) {
 
-	computedStats := calculateComputedValues()
+	selected_Class := c.Param("classSelection")
+	newStats := SelectClass(selected_Class)
+	computedStats := calculateComputedValues(newStats, 0)
+
+	//newStats := SelectClass(selected_Class)
+
+	// character := calculateCharacter("default", "")
 
 	c.HTML(http.StatusOK, "charbuilder.html", gin.H{
-		"stats":         characterStats,
+		"stats":         newStats,
 		"computedstats": computedStats,
 	},
 	)
 }
 
 func updateStatsHandler(c *gin.Context) {
-	var newStats Stats
-	selectedClass := c.PostForm("classSelection")
-	newStats = SelectClass(selectedClass)
-	if err := c.ShouldBind(&newStats); err == nil {
 
-		characterStats = newStats
-		computedStats := calculateComputedValues()
+	selected_Class := c.Param("classSelection")
+	selectedItem_helmet := c.Query("itemhelmet")
+	selectedRarity := c.Query("rarityselect")
+	selectedItemRating := c.Query("armorrating")
 
-		c.HTML(http.StatusOK, "charbuilder.html", gin.H{
-			"stats":         characterStats,
-			"computedstats": computedStats,
-		})
+	classStatSelect := SelectClass(selected_Class)
+	itemHelmetSelect := getFieldValue(selectedItem_helmet)
+	raritySelect := StringtoInt(selectedRarity)
+	itemRatingSelect := StringtoInt(selectedItemRating)
 
-	} else {
-		// Handle error if form binding fails
-		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-	}
+	printClass := InttoClass(selected_Class)
+	//fmt.Println(selectedItem_helmet)
+
+	helmetList := Itemclassdos(selected_Class, "Head")
+	chestList := Itemclassdos(selected_Class, "Chest")
+	glovesList := Itemclassdos(selected_Class, "Hands")
+	pantsList := Itemclassdos(selected_Class, "Legs")
+	bootsList := Itemclassdos(selected_Class, "Foot")
+	cloakList := Itemclassdos(selected_Class, "Back")
+
+	updatedStats := SetItemStats(classStatSelect, itemHelmetSelect, raritySelect)
+
+	//fmt.Println(itemHelmetSelected.ArmorRatings[2])
+
+	computedStats := calculateComputedValues(updatedStats, itemRatingSelect) // rating variable armor rating
+
+	// character := calculateCharacter(selected_Class, selectedItem_helmet) - character LATER
+	//c.ShouldBind(&newStats) /// USED FOR MODIFY EVERY SINGLE STATS --> TESTING TOTAL VALUES
+
+	c.HTML(http.StatusOK, "charbuilder.html", gin.H{
+
+		"stats":          updatedStats,
+		"computedstats":  computedStats,
+		"helmetlist":     helmetList,
+		"chestlist":      chestList,
+		"gloveslist":     glovesList,
+		"pantslist":      pantsList,
+		"bootslist":      bootsList,
+		"cloaklist":      cloakList,
+		"test":           selectedItem_helmet,
+		"testdo":         selectedRarity,
+		"printclass":     printClass,
+		"itemratingsone": itemHelmetSelect.ArmorRatings[raritySelect],
+		//"itemRatingstwo":
+
+		//"printout":      selectedItem_chest,
+	})
+
 }
 
 func setupRoutes(r *gin.Engine) {
-	r.GET("/charbuilder", charBuilderHandler)
-	r.POST("/update", updateStatsHandler)
+	//r.GET("/charbuilder/", charBuilderHandler)
+
+	r.GET("/charbuilder/", charBuilderHandler)
+	r.GET("/charbuilder/:classSelection", updateStatsHandler)
+
 }

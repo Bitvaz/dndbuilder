@@ -1,0 +1,1527 @@
+<includeonly>{{#switch:{{lc:{{{1|}}}}}
+|alllists={{#switch:{{lc:{{{2|}}}}}
+	|slottype={{#switch:{{lc:{{{3|}}}}}
+		|accessory={{#switch:{{lc:{{{4|}}}}}
+			|uncraftable={{#switch:{{lc:{{{5|}}}}}
+				|necklace=Badger Pendant,Bear Pendant,Fox Pendant,Frost Amulet,Monkey Pendant,Necklace of Peace,Owl Pendant,Ox Pendant,Phoenix Choker,Rat Pendant,Torq of Soul,Wind Locket
+				|ring=Ring of Courage,Ring of Finesse,Ring of Quickness,Ring of Resolve,Ring of Survival,Ring of Vitality,Ring of Wisdom
+				|all=Necklace,Ring
+				}}
+			|both={{#switch:{{lc:{{{5|}}}}}
+				|necklace=Badger Pendant,Bear Pendant,Fangs of Death Necklace,Fox Pendant,Frost Amulet,Monkey Pendant,Necklace of Peace,Owl Pendant,Ox Pendant,Phoenix Choker,Rat Pendant,Torq of Soul,Wind Locket
+				|ring=Grimsmile Ring,Ring of Courage,Ring of Finesse,Ring of Quickness,Ring of Resolve,Ring of Survival,Ring of Vitality,Ring of Wisdom
+				|all=Necklace,Ring
+				}}
+			|craftable={{#switch:{{lc:{{{5|}}}}}
+				|necklace=Fangs of Death Necklace
+				|ring=Grimsmile Ring
+				|all=Necklace,Ring
+				}}
+			|all=Uncraftable,Both,Craftable
+			}}
+		|all=Accessory
+		}}
+	|all=slottype
+	}}
+|badger pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|will 3=1
+		|will 4=2
+		|will 5=3
+		|will 6=4
+		|will 7=5
+		|allstats=Will
+		|all=will 3,will 4,will 5,will 6,will 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Channel the badger's tenacious spirit with this pendant, designed to amplify your will.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|bear pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|vigor 3=1
+		|vigor 4=2
+		|vigor 5=3
+		|vigor 6=4
+		|vigor 7=5
+		|allstats=Vigor
+		|all=vigor 3,vigor 4,vigor 5,vigor 6,vigor 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Embodying the resilience of the mighty bear, enhancing the wearer's vigor.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|fangs of death necklace={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|magical resistance=22~26
+		|luck=18~25
+		|allstats=Magical Resistance,Luck
+		|all=magical resistance,luck,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=5
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Necklace crafted using a unique combination of teeth acquired from different beasts.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|5=2
+		|all=5
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|5=4
+		|all=5
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=0
+		|4=0
+		|5=18
+		|6=0
+		|7=0
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|iscraftableby=Alchemist
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|5=60
+		|all=5
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|5=4
+		|all=5
+		}}
+	}}
+|fox pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|agility 3=1
+		|agility 4=2
+		|agility 5=3
+		|agility 6=4
+		|agility 7=5
+		|allstats=Agility
+		|all=agility 3,agility 4,agility 5,agility 6,agility 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Designed to enhance ones nimbleness, echoing the fox's swift and graceful movements.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|frost amulet={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|true physical damage 3=1
+		|true physical damage 4=2
+		|true physical damage 5=3
+		|true physical damage 6=4
+		|true physical damage 7=5
+		|allstats=True Physical Damage
+		|all=true physical damage 3,true physical damage 4,true physical damage 5,true physical damage 6,true physical damage 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Radiating a frosty aura, allowing one to deliver more potent sharpness to their physical blows.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|grimsmile ring={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|strength=2
+		|vigor=3
+		|luck=6~12
+		|allstats=Strength,Vigor,Luck
+		|all=strength,vigor,luck,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=5
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Ring crafted using rare golden teeth extracted from the silenced mouths of defeated rivals.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|5=2
+		|all=5
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|5=4
+		|all=5
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=0
+		|4=0
+		|5=18
+		|6=0
+		|7=0
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|iscraftableby=Alchemist
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|5=60
+		|all=5
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|5=4
+		|all=5
+		}}
+	}}
+|monkey pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|dexterity 3=1
+		|dexterity 4=2
+		|dexterity 5=3
+		|dexterity 6=4
+		|dexterity 7=5
+		|allstats=Dexterity
+		|all=dexterity 3,dexterity 4,dexterity 5,dexterity 6,dexterity 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=This pendant offers a boost in dexterity, ideal for tasks requiring precision and quick reflexes.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|necklace of peace={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|max health add 3=5
+		|max health add 4=7
+		|max health add 5=9
+		|max health add 6=11
+		|max health add 7=13
+		|allstats=Max Health Add
+		|all=max health add 3,max health add 4,max health add 5,max health add 6,max health add 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Infused with a tranquil energy, increases your maximum health.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|owl pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|knowledge 3=1
+		|knowledge 4=2
+		|knowledge 5=3
+		|knowledge 6=4
+		|knowledge 7=5
+		|allstats=Knowledge
+		|all=knowledge 3,knowledge 4,knowledge 5,knowledge 6,knowledge 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Enhancing the ability to cast more diverse and powerful spells.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ox pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|strength 3=1
+		|strength 4=2
+		|strength 5=3
+		|strength 6=4
+		|strength 7=5
+		|allstats=Strength
+		|all=strength 3,strength 4,strength 5,strength 6,strength 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Invoke the power of the Ox, improving the wearer's strength.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|phoenix choker={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|true magical damage 3=1
+		|true magical damage 4=2
+		|true magical damage 5=3
+		|true magical damage 6=4
+		|true magical damage 7=5
+		|allstats=True Magical Damage
+		|all=true magical damage 3,true magical damage 4,true magical damage 5,true magical damage 6,true magical damage 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=An intricate leather choker to symbolize rebirth and renewal.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|rat pendant={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|resourcefulness 3=1
+		|resourcefulness 4=2
+		|resourcefulness 5=3
+		|resourcefulness 6=4
+		|resourcefulness 7=5
+		|allstats=Resourcefulness
+		|all=resourcefulness 3,resourcefulness 4,resourcefulness 5,resourcefulness 6,resourcefulness 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Adapt and utilize your surroundings more effectively, just like the clever rat.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of courage={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|strength 3=1
+		|strength 4=2
+		|strength 5=3
+		|strength 6=4
+		|strength 7=5
+		|allstats=Strength
+		|all=strength 3,strength 4,strength 5,strength 6,strength 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Imbued with the essence of bravery, enhancing your strength.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of finesse={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|dexterity 3=1
+		|dexterity 4=2
+		|dexterity 5=3
+		|dexterity 6=4
+		|dexterity 7=5
+		|allstats=Dexterity
+		|all=dexterity 3,dexterity 4,dexterity 5,dexterity 6,dexterity 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Enhancing your ability to execute maneuvers with more ease.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of quickness={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|agility 3=1
+		|agility 4=2
+		|agility 5=3
+		|agility 6=4
+		|agility 7=5
+		|allstats=Agility
+		|all=agility 3,agility 4,agility 5,agility 6,agility 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Subtly increases your movements to be more swift and fluid.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of resolve={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|will 3=1
+		|will 4=2
+		|will 5=3
+		|will 6=4
+		|will 7=5
+		|allstats=Will
+		|all=will 3,will 4,will 5,will 6,will 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Empowering you to remain resolute and focused.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of survival={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|resourcefulness 3=1
+		|resourcefulness 4=2
+		|resourcefulness 5=3
+		|resourcefulness 6=4
+		|resourcefulness 7=5
+		|allstats=Resourcefulness
+		|all=resourcefulness 3,resourcefulness 4,resourcefulness 5,resourcefulness 6,resourcefulness 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Adapt and thrive in various environments.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of vitality={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|vigor 3=1
+		|vigor 4=2
+		|vigor 5=3
+		|vigor 6=4
+		|vigor 7=5
+		|allstats=Vigor
+		|all=vigor 3,vigor 4,vigor 5,vigor 6,vigor 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Pulsing with life force, subtly enhances your vigor.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|ring of wisdom={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|knowledge 3=1
+		|knowledge 4=2
+		|knowledge 5=3
+		|knowledge 6=4
+		|knowledge 7=5
+		|allstats=Knowledge
+		|all=knowledge 3,knowledge 4,knowledge 5,knowledge 6,knowledge 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|ring=Accessory
+		|all=Ring
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Ring
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Enabling the knowledge of more complex spell casting.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|torq of soul={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|magical resistance 3=12~14
+		|magical resistance 4=16~20
+		|magical resistance 5=22~26
+		|magical resistance 6=28~32
+		|magical resistance 7=34~38
+		|allstats=Magical Resistance
+		|all=magical resistance 3,magical resistance 4,magical resistance 5,magical resistance 6,magical resistance 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=A beautiful solid silver necklace with an enchanting turquoise stone.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|wind locket={{#switch:{{lc:{{{2|}}}}}
+	|stats={{#switch:{{lc:{{{3|}}}}}
+		|armor rating add 3=2~4
+		|armor rating add 4=6~8
+		|armor rating add 5=10~12
+		|armor rating add 6=14~16
+		|armor rating add 7=18~20
+		|allstats=Armor Rating Add
+		|all=armor rating add 3,armor rating add 4,armor rating add 5,armor rating add 6,armor rating add 7,allstats
+		}}
+	|types={{#switch:{{lc:{{{3|}}}}}
+		|necklace=Accessory
+		|all=Necklace
+		}}
+	|rarities=3,4,5,6,7
+	|slottype=Necklace
+	|invwidth=1
+	|invheight=1
+	|invslots=[[File:1x1InvSlot.jpg]]
+	|flavortext=Silver pendant necklace inlaid with filigree surrounding a mystical blue stone.
+	|maxammocount=0
+	|maxcount=1
+	|wearingdelaytime=0
+	|ap={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=1
+		|5=2
+		|6=3
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	|xp={{#switch:{{lc:{{{3|}}}}}
+		|3=3
+		|4=4
+		|5=5
+		|6=6
+		|7=7
+		|all=3,4,5,6,7
+		}}
+	|gearscore={{#switch:{{lc:{{{3|}}}}}
+		|0=0
+		|1=0
+		|2=0
+		|3=9
+		|4=12
+		|5=18
+		|6=24
+		|7=30
+		|all=0,1,2,3,4,5,6,7
+		}}
+	|sellprices={{#switch:{{lc:{{{3|}}}}}
+		|3=7
+		|4=12
+		|5=20
+		|6=32
+		|7=53
+		|all=3,4,5,6,7
+		}}
+	|numenchants={{#switch:{{lc:{{{3|}}}}}
+		|3=1
+		|4=2
+		|5=3
+		|6=4
+		|7=5
+		|all=3,4,5,6,7
+		}}
+	}}
+|all=Badger Pendant,Bear Pendant,Fangs of Death Necklace,Fox Pendant,Frost Amulet,Grimsmile Ring,Monkey Pendant,Necklace of Peace,Owl Pendant,Ox Pendant,Phoenix Choker,Rat Pendant,Ring of Courage,Ring of Finesse,Ring of Quickness,Ring of Resolve,Ring of Survival,Ring of Vitality,Ring of Wisdom,Torq of Soul,Wind Locket
+}}</includeonly><noinclude>
+
+==Usage==
+<pre>{{Accessory_Data|<variable1>|<variable2>|...}}</pre>
+
+
+==Variables==
+*<item_name>
+**stats
+***<stat_name>
+***allstats
+**abilities
+***<ability_type>
+****<ability_name>
+*****<ability_attribute>
+**types
+***<type>
+**hitbox
+***height
+***width
+***height
+**rarities
+**handtype
+**slottype
+**artifactname
+**artifactpower
+**invslots
+**invwidth
+**invheight
+**hitslow
+**hitslowduration
+**flavortext
+**maxammocount
+**maxcount
+**maxcontentscount
+**reloadtime
+**wearingdelaytime
+**equiptime
+**unequiptime
+**ap
+***<rarity>
+**xp
+***<rarity>
+**gearscore
+***<rarity>
+**sellprices
+***<rarity>
+**initialspeed
+**damagefalloff
+**piercecount
+**classes
+**impactresistance
+**interactiontime
+**interactiontimescaling
+
+
+==Global==
+All attributes that are shared between all other attributes in the same layer are moved to a global layer
+
+For example, if all |movementmultiplier's under Abilities|Primary| are the same, they will be moved to Abilities|Primary|global
+
+See Example 2 for more information
+
+
+==All==
+All sub-layers can also call |all for a list of all unique attributes
+For example, 
+
+<pre style="width:fit-content;">{{Accessory_Data|all}}</pre>
+
+will output a list of all items
+
+For example, 
+
+<pre style="width:fit-content;">{{Accessory_Data|<itemname>|all}}</pre>
+
+will output a list of all attributes of a particular
+
+See example 1 and 6 for more information
+
+
+==Examples==
+Note, some variables may not be applicable to all item categories.
+The below examples are for the Arming Sword, which only exists in Weapon_Data.
+Other item categories, like Misc_Data, may have different variables, and obviously don't have others, like abilities
+
+===Example 1===
+All stats of the Arming Sword
+<pre style="width:fit-content;">{{Accessory_Data|Arming Sword|stats|all}}</pre>
+Outputs {{Accessory_Data|Arming Sword|stats|all}}
+
+
+
+===Example 2===
+All shared attributes for Primary attacks of Arming Sword
+<pre style="width:fit-content;">{{Accessory_Data|Arming Sword|abilities|Primary|global}}</pre>
+Outputs {{Accessory_Data|Arming Sword|abilities|Primary|global}}
+
+
+
+===Example 3===
+Damagefalloff widget of Longbow
+<pre style="width:fit-content;">{{Accessory_Data|Longbow|damagefalloff}}</pre>
+Outputs {{Accessory_Data|Longbow|damagefalloff}}
+
+
+
+===Example 4===
+All non-artifact rarities of the Arming Sword
+<pre style="width:fit-content;">{{Accessory_Data|Arming Sword|rarities}}</pre>
+Outputs {{Accessory_Data|Arming Sword|rarities}}
+
+
+
+===Example 5===
+Invslots size image of Arming Sword
+<pre style="width:fit-content;">{{Accessory_Data|Arming Sword|invslots}}</pre>
+Outputs {{Accessory_Data|Arming Sword|invslots}}
+
+
+
+===Example 6===
+All attributes of primary abilities of Arming Sword
+<pre style="width:fit-content;">{{Accessory_Data|Arming Sword|abilities|Primary|all}}</pre>
+Outputs {{Accessory_Data|Arming Sword|abilities|Primary|all}}
+
+
+
+</noinclude>

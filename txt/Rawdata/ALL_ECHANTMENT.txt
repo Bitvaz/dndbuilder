@@ -1,0 +1,1530 @@
+<metadesc>Dark and Darker Wiki Enchantments Guide: Enchant stats and roll ranges</metadesc>
+{{UpdateStatus|Enchantment Data}}
+{{MechanicsBar}}
+
+Formally called Random Attributes, enchantments are random stat modifiers which appear on gear of Uncommon (green) rarity or higher in addition to the primary stats which always appear on the Poor (grey) and Common (white) versions.
+
+Note that most enchants also exist as stats which are listed below and can be found directly in the [[Stats]] page.
+
+==General==
+Upon the item being generated, an enchantment as well as an enchantment value will be randomly selected for each enchantment slot available for that item.
+Which enchantments can be rolled as well as what range of values can be rolled depend on the item type as well as the enchantment itself.
+See [[#Table of Enchantment Values]] for all possible enchantments and enchantment values.
+
+There are additional restrictions to which enchantments may be rolled:
+*Primary stats can't be rolled as enchantments e.g. a [[Padded Tunic]] (which always has Strength on it) cannot roll a Strength enchantment even though [[chest]]s in general may do so.
+*Enchantments can't be rolled twice on the same item e.g. no item will have two Will enchantments on it.
+
+Note that attribute names are quite specific e.g. "Move Speed" being a primary stat on [[Foot|boots]] does not prevent "Additional Move Speed" from being rolled on them as they are considered different attributes.
+
+Generally, Uncommon items will have 1 enchantment, and the number of enchantments will increase by 1 per rarity level. [[Crafting|Craftable gear]] breaks this rule, instead starting at 2 enchantments for Uncommon items and then also increasing by 1 per rarity.
+
+Note that "nothing" is not a possible enchantment; items will always have the maximum number of enchantments possible.
+
+Only positive values can be rolled - no zero or negative values will appear.
+
+Each enchantment modifies just 1 stat - no hybrid enchantments or +Stat A/-Stat B enchantments exist.
+
+==Table of Enchantment Values==
+
+Google Spread Sheet with Enchantment History<br>
+[https://docs.google.com/spreadsheets/d/e/2PACX-1vQsNC-v2FZyl4mNYehWMxfjPOmick_7jd_M1HTj88qa25QfLBfy5ZkYtLK54QJdz2tdIcvLvfyFPVAW/pubhtml Public html (Recommended).]<br>
+[https://docs.google.com/spreadsheets/d/1agVOfhEXXV-W8bxcdK8eV7thkKsirPcf4ddZEczAL8s/copy Invite to make a copy (allows frozen rows while scrolling)]<br>
+
+
+
+{| class="wikitable" cellspacing="0" style="font-weight:bold; width:95%; text-align:center; vertical-align:middle; text-shadow: 1px 1px 4px #000000;"
+|- style="background:#4a4a4a;"
+| colspan="1" rowspan="2" style="width: 8%;"	|Patch 6
+| colspan="1" rowspan="2" style="width: 13%;"	|Enchantments / Modifiers
+| colspan="2" rowspan="1" style="width: 3.5%;"	|1 Hand Shield
+| colspan="2" rowspan="1" style="width: 3.5%;"	|2 Hand Shield
+| colspan="2" rowspan="1" style="width: 3.5%;"	|1 Hand Weapon
+| colspan="2" rowspan="1" style="width: 3.5%;"	|2 Hand Physical Weapon
+| colspan="2" rowspan="1" style="width: 3.5%;"	|2 Hand Hybrid Weapon 
+| colspan="2" rowspan="1" style="width: 3.5%;"	|2 Hand Magic Weapon
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Head
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Chest
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Legs
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Hands
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Foot
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Cloak
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Necklace
+| colspan="2" rowspan="1" style="width: 3.5%;"	|Ring
+| colspan="3" rowspan="1" style="width: 5%;" |Max Total Possible
+|- style="background:#4a4a4a;"
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|Min
+|Max
+|(Last update Patch5)
+|(Current update)
+|(% Increase from last)
+|-
+| colspan="1" rowspan="8" style="background:#45753380;"	|Attributes
+|All Attributes/Primitive
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|0
+|0
+| N/A
+|- style="background:#45753380;"
+|Strength
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+| 0%
+|- 
+|Agility
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+| 0%
+|- style="background:#45753380;"
+|Dexterity
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+| 0%
+|- 
+|Will
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+| 0%
+|- style="background:#45753380;"
+|Knowledge
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+| 0%
+|-
+|Vigor
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+| 0%
+|- style="background:#45753380;"
+|Resourcefulness
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|10
+|10
+|0%
+|-
+| colspan="1" rowspan="6" style="background:#BB432A80;"	|Physical Damage
+|Armor Penetration
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|4
+| style="text-align: left; border-left: hidden;"	|7
+| style="text-align: right; border-right: hidden;"	|4
+| style="text-align: left; border-left: hidden;"	|7
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|24
+|24
+| 0%
+|- style="background:#BB432A80;"
+|Additional Physical Damage
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+|5
+|5
+| 0%
+|-
+|True Physical Damage
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+|5
+|5
+| 0%
+|- style="background:#BB432A80;"
+|Physical Damage Bonus
+| style="text-align: right; border-right: hidden;"	|1.5
+| style="text-align: left; border-left: hidden;"	|2.5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1.5
+| style="text-align: left; border-left: hidden;"	|2.5
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|1.5
+| style="text-align: left; border-left: hidden;"	|2.5
+| style="text-align: right; border-right: hidden;"	|1.5
+| style="text-align: left; border-left: hidden;"	|2.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|14.5
+|14.5
+| 0%
+|-
+| style="height: 10;"|Physical Weapon Damage Add
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|2
+|2
+| 0%
+|- style="background:#BB432A80;"
+|Physical Power
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|25
+|25
+| 0%
+|-
+| colspan="1" rowspan="5" style="background:#2A6DAC80;"	|Magical Damage
+|Magic Penetration
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|4
+| style="text-align: left; border-left: hidden;"	|7
+| style="text-align: right; border-right: hidden;"	|4
+| style="text-align: left; border-left: hidden;"	|7
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|24
+|24
+| 0%
+|- style="background:#2A6DAC80;"
+|Additional Magical Damage
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+|5
+|5
+| 0%
+|-
+|True Magical Damage
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+|5
+|5
+| 0%
+|- style="background:#2A6DAC80;"
+|Magical Damage Bonus
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1.5
+| style="text-align: left; border-left: hidden;"	|3.5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|4.5
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|4.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|22
+|22
+| 0%
+|-
+|Magical Power
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|25
+|25
+| 0%
+|- style="background:#99591A80;"
+| colspan="1" rowspan="5"	|Reductions
+|Armor Rating Add
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|15
+| style="text-align: left; border-left: hidden;"	|30
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+|90
+|90
+| 0%
+|-
+|Magic Resistance Add
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|15
+| style="text-align: left; border-left: hidden;"	|30
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+|90
+|90
+| 0%
+|- style="background:#99591A80;"
+|Physical Damage Reduction
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+|15.5
+|15.5
+| 0%
+|-
+|Magical Damage Reduction
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2.5
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+|15.5
+|15.5
+| 0%
+|- style="background:#99591A80;"
+|Projectile Reduction Mod
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+|15.5
+|15.5
+| 0%
+|-
+| colspan="1" rowspan="6" style="background:#8566B780;"	|Actions and Interactions
+|Action Speed
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+|12
+|12
+| 0%
+|- style="background:#8566B780;"
+|Move Speed Add
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|5
+|5
+| 0%
+|-
+|Move Speed Bonus
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|0.8
+| style="text-align: left; border-left: hidden;"	|1.5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+|1.5
+|1.5
+| 0%
+|- style="background:#8566B780;"
+|Regular Interaction Speed
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+|97.5
+|97.5
+|0%
+|-
+|Magical Interaction Speed
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|10
+| style="text-align: left; border-left: hidden;"	|15
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|7.5
+|97.5
+|97.5
+|0%
+|- style="background:#8566B780;"
+|Spell Casting Speed
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+|12
+|12
+| 0%
+|-
+| colspan="1" rowspan="2" style="background:#FF300080;"	|Health
+|Max Health Add
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|6
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+|42
+|42
+| 0%
+|- style="background:#FF300080;"
+|Max Health Bonus
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|0.5
+| style="text-align: left; border-left: hidden;"	|1
+|14
+|14
+| 0%
+|-
+| colspan="1" rowspan="2" style="background:#2B884A80;"	|Healing
+|Physical Healing
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|10
+|10
+|0%
+|- style="background:#2B884A80;"
+|Magical Healing
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|14
+|14
+|0%
+|-
+| colspan="1" rowspan="2" style="background:#B340B380;"	|Statuses
+|Buff Duration Bonus
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|3
+| style="text-align: left; border-left: hidden;"	|5
+|70
+|70
+|0%
+|- style="background:#B340B380;"
+|Debuff Duration Bonus
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|3
+|39
+|39
+|0%
+|- style="background:#2B9DA180;"
+| colspan="1" rowspan="2"	|Memory
+|Memory Capacity Add
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|1
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|3
+| style="text-align: right; border-right: hidden;"	|1
+| style="text-align: left; border-left: hidden;"	|2
+|23
+|23
+|0%
+|-
+|Memory Capacity Bonus
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+| style="text-align: right; border-right: hidden;"	|5
+| style="text-align: left; border-left: hidden;"	|10
+| style="text-align: right; border-right: hidden;"	|2
+| style="text-align: left; border-left: hidden;"	|5
+|70
+|70
+|0%
+|- style="background:#F3CE2B80;"
+|Misc
+|Luck
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|15
+| style="text-align: left; border-left: hidden;"	|25
+| style="text-align: right; border-right: hidden;"	|25
+| style="text-align: left; border-left: hidden;"	|50
+| style="text-align: right; border-right: hidden;"	|25
+| style="text-align: left; border-left: hidden;"	|50
+| style="text-align: right; border-right: hidden;"	|
+| style="text-align: left; border-left: hidden;"	|
+| style="text-align: right; border-right: hidden;"	|15
+| style="text-align: left; border-left: hidden;"	|25
+| style="text-align: right; border-right: hidden;"	|15
+| style="text-align: left; border-left: hidden;"	|25
+| style="text-align: right; border-right: hidden;"	|25
+| style="text-align: left; border-left: hidden;"	|50
+| style="text-align: right; border-right: hidden;"	|15
+| style="text-align: left; border-left: hidden;"	|25
+|275
+|275
+|0%
+|}
+
+
+<code>Max Total Possible = MAX(1H Shield + 1H Weapon, 2 * 1H Weapon, 2H Physical, 2H Magical, 2H Hybrid) + Head + Chest + Legs + Hands + Foot + Cloak + Necklace) + 2*Ring</code>
+
+==Enchantment Stats==
+Enchantments for stats that are displayed in the in-game details page.
+{| class="wikitable"
+|Enchantment
+|Description
+|-
+|[[Stats#Attributes|All Attributes]]
+|Increases [[Stats#Attributes|All Attributes]] (Strength, Vigor, Agility, Dexterity, Will, Knowledge, Resourcefulness).
+|-
+|[[Stats#Strength|Strength]]
+|Increases [[Stats#Strength|Strength]] attribute
+|-
+|[[Stats#Vigor|Vigor]]
+|Increases [[Stats#Vigor|Vigor]] attribute
+|-
+|[[Stats#Agility|Agility]]
+|Increases [[Stats#Agility|Agility]] attribute
+|-
+|[[Stats#Dexterity|Dexterity]]
+|Increases [[Stats#Dexterity|Dexterity]] attribute
+|-
+|[[Stats#Will|Will]]
+|Increases [[Stats#Will|Will]] attribute
+|-
+|[[Stats#Knowledge|Knowledge]]
+|Increases [[Stats#Knowledge|Knowledge]] stat
+|-
+|[[Stats#Resourcefulness|Resourcefulness]]
+|Increases [[Stats#Resourcefulness|Resourcefulness]] attribute
+|-
+|[[Stats#Action_Speed|Action Speed]]
+|Increases [[Stats#Action_Speed|Action Speed]] attribute
+|-
+|[[Stats#Spell_Casting_Speed|Spell Casting Speed]]
+|Increases [[Stats#Spell_Casting_Speed|Spell Casting Speed]] stat
+|-
+|[[Stats#Buff_Duration|Buff Duration Bonus]]
+|Increases [[Stats#Buff_Duration|Buff Duration Bonus]] stat
+|-
+|[[Stats#Debuff_Duration|Debuff Duration Bonus]]
+|Increases [[Stats#Debuff_Duration|Debuff Duration Bonus]] stat
+|-
+|[[Stats#Interaction_Speed_3|Regular Interaction Speed]]
+|Increases [[Stats#Interaction_Speed_3|Regular Interaction Speed]] stat
+|-
+|[[Stats#Magical_Interaction_Speed|Magical Interaction Speed]]
+|Increases [[Stats#Magical_Interaction_Speed|Magical Interaction Speed]] stat.
+|-
+|[[Stats#Spell_Memory/Capacity|Memory Capacity Bonus]]
+|Increases [[Stats#Memory_Capacity|Memory Capacity]] stat by a %
+|-
+|[[Stats#Spell_Memory/Capacity|Memory Capacity Add]]
+|Increases [[Stats#Memory_Capacity|Memory Capacity]] stat by a flat amount
+|-
+|[[Stats#Max_Health|Max Health Bonus]]
+|Increases your character's [[Stats#Max_Health|Maximum Health]] by a %
+|-
+|[[Stats#Max_Health|Max Health Add]]
+|Increases your character's [[Stats#Max_Health|Maximum Health]] by a flat amount
+|-
+|[[Stats#Move_Speed|Movement Speed Bonus]]
+|Increases Movement speed
+|-
+|[[Stats#Move_Speed|Movement Speed Add]]
+|Increases Movement speed
+|-
+|[[Stats#Physical_Power|Physical Power]]
+|Increases [[Stats#Physical_Power|Physical Power]] stat and in turn your [[Stats#Physical_Power_Bonus|Physical Power Bonus]] stat.
+|-
+|[[Stats#Physical_Power_Bonus|Physical Power Bonus]]
+|Increases [[Stats#Physical_Power_Bonus|Physical Power Bonus]] stat
+|-
+|[[Stats#Magic_Power|Magical Power]]
+|Increases [[Stats#Magic_Power|Magical Power]] stat, which in turn increases [[Stats#Magic_Power_Bonus|Magic Power Bonus]] stat.
+|-
+|[[Stats#Magic_Power_Bonus|Magic Power Bonus]]
+|Increases [[Stats#Physical_Power_Bonus|Physical Power Bonus]] stat
+|-
+|[[Stats#Physical_Damage_Reduction|Armor Rating]]
+|Increases your [[Stats#Armor_Rating|Armor Rating]] stat and in turn your Physical [[Damage_Calculation|Damage Reduction]]. See [[Damage_Calculation|Damage Calculation]].
+|-
+|[[Stats#Physical_Damage_Reduction|Physical Damage Reduction]]
+|Increases [[Stats#Physical_Damage_Reduction|Physical Damage Reduction]] stat which [[Damage_Calculation#Damage Reduction|reduces damage taken]]. See [[Damage_Calculation|Damage Calculation]]
+|-
+|[[Stats#Magic_Resistance|Magic Resistance]]
+|Increases your [[Stats#Magic_Resistance|Magic Resistance]] stat and in turn your Magical [[Damage_Calculation|Damage Reduction]]. See [[Damage_Calculation|Damage Calculation]].
+|-
+|[[Stats#Magical_Damage_Reduction|Magical Damage Reduction]]
+|Increases [[Stats#Magical_Damage_Reduction|Magical Damage Reduction]] stat which [[Damage_Calculation#Damage Reduction|reduces damage taken]]. See [[Damage_Calculation|Damage Calculation]]
+|}
+
+==Enchantment Exclusive Stats==
+Enchantments that aren't traditional Stats and only exist in a Damage/Healing formula are listed below and can also be found in [[Damage_Calculation]] and [[Healing]].
+{| class="wikitable"
+!Enchantment
+!Description
+|-
+|[[Healing#Physical_Base_Healing|Physical Base Healing]]
+|Increases [[Healing#Physical_Base_Healing|Physical Base Healing]] performed
+|-
+|[[Healing#Magical_Base_Healing|Magical Base Healing]]
+|Increases [[Healing#Magical_Base_Healing|Magical Base Healing]] performed
+|-
+|[[Damage_Calculation#Penetration|Armor Penetration]]
+|Increases the amount of Physical Damage that bypasses enemy's [[Stats#Physical_Damage_Reduction|Physical Damage Reduction]]
+|-
+|[[Damage_Calculation#Penetration|Magic Penetration]]
+|Increases the amount of Magical Damage that bypasses enemy's [[Stats#Magical_Damage_Reduction|Magical Damage Reduction]]
+|-
+|[[Damage_Calculation#Projectile_Reduction|Projectile Reduction]]
+|Decreases damage taken from projectiles (Arrows, Throwing Knives, etc.)
+|-
+|Headshot Damage Reduction
+|Decreases [[Damage_Calculation#Hit_Location_Bonus|Hit Location Bonus]] additively if targeting the head
+|-
+|[[Damage_Calculation#True Damage|True Physical Damage]]
+|Increases Physical Damage dealt that is not influenced by enemy defences
+|-
+|[[Damage_Calculation#True Damage|True Magical Damage]]
+|Increases Magical Damage dealt that is not influenced by enemy defences
+|-
+|[[Damage_Calculation#Gear_Weapon_Damage|Weapon Damage]]
+|Increases  [[Damage_Calculation#Gear_Weapon_Damage|Gear Weapon Damage]]
+|-
+|[[Damage_Calculation#Additional Damage|Additional Physical Damage]]
+|Increases Physical Damage dealt (not affected by [[Stats#Physical_Power_Bonus|Physical Power Bonus]])
+|-
+|[[Damage_Calculation#Additional Damage|Additional Magical Damage]]
+|Increases Magical Damage dealt (not affected by [[Stats#Magic_Power_Bonus|Magical Power Bonus]])
+|-
+|[[Stats#Luck|Luck]]
+|Increases Luck for obtaining items)
+|}
+
+==Unknown/Unimplemented Enchantments==
+Additional Utility Effectiveness
+
+Bonus Utility Effectiveness
+
+Additional Weight Limit
+
+Bonus Weight Limit
