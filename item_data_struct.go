@@ -1,50 +1,5 @@
 package main
 
-type Enchantment struct {
-	Name                     string
-	AllAttributes            int
-	Strength                 int
-	Vigor                    int
-	Agility                  int
-	Dexterity                int
-	Will                     int
-	Knowledge                int
-	Resourcefulness          int
-	ActionSpeed              []float64
-	SpellCastingSpeed        []float64
-	BuffDurationBonus        float64
-	DebuffDurationBonus      float64
-	RegularInteractionSpeed  float64
-	MagicalInteractionSpeed  float64
-	MemoryCapacityBonus      float64
-	MemoryCapacityAdd        float64
-	MaxHealthBonus           float64
-	MaxHealthAdd             float64
-	MovementSpeedBonus       float64
-	MovementSpeedAdd         float64
-	PhysicalPower            float64
-	PhysicalPowerBonus       float64
-	MagicalPower             float64
-	MagicPowerBonus          float64
-	ArmorRating              float64
-	ArmorPenetration         float64
-	AdditionalPhysicalDamage float64
-	TruePhysicalDamage       float64
-	PhysicalDamageBonus      float64
-	PhysicalWeaponDamage     float64
-	MagicPenetration         float64
-	AdditionalMagicalDamage  float64
-	TrueMagicalDamage        float64
-	PhysicalDamageReduction  float64
-	MagicResistance          float64
-	MagicalDamageReduction   float64
-	Luck                     int
-}
-
-type EnchantmentList struct {
-	enchantmentList map[string][]Enchantment
-}
-
 type BaseAttribute struct {
 	Strength        map[int]int `json:"strength"`
 	Vigor           map[int]int `json:"vigor"`
@@ -133,4 +88,71 @@ type Item_Weapon struct {
 	SellPrices           map[int]int `json:"sellPrices"`  // Sell prices for levels 1 to 7
 	NumEnchants          map[int]int `json:"numEnchants"` // Number of enchants for levels 3 to 7
 
+}
+type EnchantmentValue struct {
+	Slottypes []string
+	Attribute []float64
+}
+
+type Enchantment struct {
+	AllAttributes            EnchantmentValue
+	Strength                 EnchantmentValue
+	Vigor                    EnchantmentValue
+	Agility                  EnchantmentValue
+	Dexterity                EnchantmentValue
+	Will                     []int
+	Knowledge                []int
+	Resourcefulness          []int
+	ActionSpeed              []float64
+	SpellCastingSpeed        []float64
+	BuffDurationBonus        []float64
+	DebuffDurationBonus      []float64
+	RegularInteractionSpeed  []float64
+	MagicalInteractionSpeed  []float64
+	MemoryCapacityBonus      []float64
+	MemoryCapacityAdd        []float64
+	MaxHealthBonus           []float64
+	MaxHealthAdd             []float64
+	MovementSpeedBonus       []float64
+	MovementSpeedAdd         []float64
+	PhysicalPower            []float64
+	PhysicalPowerBonus       []float64
+	MagicalPower             []float64
+	MagicPowerBonus          []float64
+	ArmorRating              []float64
+	ArmorPenetration         []float64
+	AdditionalPhysicalDamage []float64
+	TruePhysicalDamage       []float64
+	PhysicalDamageBonus      []float64
+	PhysicalWeaponDamage     []float64
+	MagicPenetration         []float64
+	AdditionalMagicalDamage  []float64
+	TrueMagicalDamage        []float64
+	PhysicalDamageReduction  []float64
+	MagicResistance          []float64
+	MagicalDamageReduction   []float64
+	Luck                     []int
+}
+
+/*
+var allEnchanment = Enchantment{
+	AllAttributes: EnchantmentValue{
+		Slottypes: []string{"head", "chest", "legs", "hands", "foot"},
+		Attribute: []float64{}},
+	Strength: EnchantmentValue{
+		Slottypes: []string{"head", "chest", "legs", "hands", "foot"},
+		Attribute: []float64{1, 2}},
+	Vigor: EnchantmentValue{
+		Slottypes: []string{"head", "chest", "legs", "hands", "foot"},
+		Attribute: []float64{1, 2}},
+	Agility: EnchantmentValue{
+		Slottypes: []string{"head", "chest", "legs", "hands", "foot"},
+		Attribute: []float64{1, 2}},
+	Dexterity: EnchantmentValue{
+		Slottypes: []string{"head", "chest", "legs", "hands", "foot"},
+		Attribute: []float64{1, 2}},
+}
+*/
+
+type Listechanment struct {
 }

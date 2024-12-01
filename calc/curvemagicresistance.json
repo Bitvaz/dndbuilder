@@ -1,0 +1,33 @@
+{
+   "Name": "Magic_Resistance",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": -20.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 15.0,
+            "Value": 30.0
+          },
+          {
+            "Time": 33.0,
+            "Value": 102.0
+          },
+          {
+            "Time": 48.0,
+            "Value": 147.0
+          },
+          {
+            "Time": 58.0,
+            "Value": 167.0
+          },
+          {
+            "Time": 100.0,
+            "Value": 209.0
+          }
+        ]
+}

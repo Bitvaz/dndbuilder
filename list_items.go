@@ -8,16 +8,19 @@ type Item struct {
 	OccultistPants Item_Armor
 	LightfootBoots Item_Armor
 	RadiantCloak   Item_Armor
+	AdventureCloak Item_Armor
 }
 
 var item = Item{
-	Armet:          createItem("itemArmet2.json"),
-	CrusaderHelm:   createItem("itemCrusaderHelm.json"),
-	Doublet:        createItem("itemDoublet.json"),
-	RivetedGloves:  createItem("itemRivetedGloves.json"),
-	OccultistPants: createItem("itemOccultistPants.json"),
-	LightfootBoots: createItem("itemLightfootBoots.json"),
-	RadiantCloak:   createItem("itemRadiantCloak.json"),
+
+	Armet:          CreateItem("./data/itemArmet2.json"),
+	CrusaderHelm:   CreateItem("./data/itemCrusaderHelm.json"),
+	Doublet:        CreateItem("./data/itemDoublet.json"),
+	RivetedGloves:  CreateItem("./data/itemRivetedGloves.json"),
+	OccultistPants: CreateItem("./data/itemOccultistPants.json"),
+	LightfootBoots: CreateItem("./data/itemLightfootBoots.json"),
+	RadiantCloak:   CreateItem("./data/itemRadiantCloak.json"),
+	AdventureCloak: CreateItem("./data/itemAdventureCloak.json"),
 }
 
 type List_Items struct {
@@ -33,11 +36,6 @@ var Items = List_Items{
 		item.OccultistPants,
 		item.LightfootBoots,
 		item.RadiantCloak,
+		item.AdventureCloak,
 	},
 }
-
-//var Items = []Item_Armor{
-//	Armet:        createItem("itemArmet2.json"),
-//	CrusaderHelm: createItem("itemCrusaderHelm.json"),
-//	Doublet:      createItem("itemDoublet.json"),
-//}

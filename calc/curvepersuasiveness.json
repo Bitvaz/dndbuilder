@@ -1,0 +1,25 @@
+{
+    "Name": "Persuasiveness",
+        "Keys": [
+          {
+            "Time": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 35.0,
+            "Value": 35.0
+          },
+          {
+            "Time": 71.0,
+            "Value": 53.0
+          },
+          {
+            "Time": 99.0,
+            "Value": 60.0
+          },
+          {
+            "Time": 100.0,
+            "Value": 60.0
+          }
+        ]
+}

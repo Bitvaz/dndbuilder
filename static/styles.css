@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: white; /* Optional: Makes the text readable on a black background */
+}
+
 .form-container {
     display: flex;
     align-items: center; /* Vertically center the items */
@@ -6,3 +11,4 @@
 .dropdown-group {
     margin-right: 20px; /* Space between dropdown groups */
 }
+

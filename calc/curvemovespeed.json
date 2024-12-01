@@ -1,0 +1,11 @@
+{
+    "Name": "MoveSpeed",
+    "Keys": [
+        {"Time": 0.0, "Value": -10.0},
+        {"Time": 10.0, "Value": -5.0},
+        {"Time": 15.0, "Value": 0.0},
+        {"Time": 75.0, "Value": 45.0},
+        {"Time": 100.0, "Value": 57.5}
+      ]
+}
+  

@@ -11,13 +11,6 @@ type Stats struct {
 	Resourcefulness int
 }
 
-type Character struct {
-	Stats         Stats // Assuming 'Stats' is your stats struct
-	Computed      Computed_Stats
-	SelectedItem  string
-	SelectedClass string
-}
-
 type WeaponStats struct {
 	Attackone   float64
 	Attacktwo   float64
@@ -152,31 +145,16 @@ var classDruid = Stats{
 }
 
 var classRanger = Stats{
-	Strength:        10,
+	Strength:        12,
 	Vigor:           10,
 	Agility:         20,
 	Dexterity:       18,
 	Will:            10,
 	Knowledge:       12,
-	Resourcefulness: 25,
+	Resourcefulness: 23,
 }
 
-/*var newStats = Stats{
-	Strength:        1,
-	Vigor:           1,
-	Agility:         1,
-	Dexterity:       1,
-	Will:            1,
-	Knowledge:       1,
-	Resourcefulness: 1,
-}*/
-/*
-var inewStats = Stats{
-	Strength:        1,
-	Vigor:           1,
-	Agility:         1,
-	Dexterity:       1,
-	Will:            1,
-	Knowledge:       1,
-	Resourcefulness: 1,
-}*/
+type Character struct {
+	EquippedItems []Item_Armor
+	BaseAttribute []Stats
+}

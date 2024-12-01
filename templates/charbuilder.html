@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Builder</title>
 	<link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
-	
 </head>
 <body>
     <h1>Character Builder</h1>
 	<!-- Class Selection -->
-<form id="classForm" method="get" action="">
+	
+	
+<form id="classForm" method="get" action=""> <!-- Class Form -->
     <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
         <div class="dropdown-group">
             <label for="classselection">Select Class</label>
@@ -31,8 +32,10 @@
         <div class="classselected">
             <label for="classselected">Class Selected: {{ .printclass }}</label>
         </div>
+		
+		
     </div>
-	 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+
 		<div class="statsselected">
         <!-- Character Stats -->
         <label for="strength">Strength:</label>
@@ -52,11 +55,10 @@
         <!-- Submit button -->
 		</div>
     <input type="submit" value="Update Stats">
-	</div>
+	
 </form>
-
-<form id="itemForm" method="get" action="">
-    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<form id="itemForm"  method="get" action=""> <!-- Items Form -->
+    <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"> <!-- Helmet From -->
         <!-- Dropdown for Helmet -->
         <div class="dropdown-group">
             <label for="itemSelect">Helmet</label>
@@ -70,7 +72,7 @@
 
 		<div class="dropdown-group">
             <label for="rarityselect">Rarity</label>
-            <select id="rarityselect" name="rarityselect">
+            <select id="rarityselect" name="rarityselect_helmet">
                 <option value="">Select armor</option>
                 <option value="1">1</option>
 				<option value="2">2</option>
@@ -82,25 +84,28 @@
             </select>
 			
         </div>
-		
+		<div id="colorBox" style="width: 20px; height: 20px; margin-left: 10px; border: 1px solid #000;"></div>
 		<div class="dropdown-group">
-            <label for="enchantmentSelect">Item Armor Rating</label>
-            <select id="enchantmentSelect" name="armorrating">
+            <label for="itemarmorrating">Item Armor Rating</label>
+            <select id="itemarmorrating" name="armorrating_helmet">
 				<option value="">Select Armor Rating</option>
-                {{range .itemratingsone}}
+                {{range .helmet_ratinglist}}
                     <option value="{{.}}">{{.}}</option>
                 {{end}}
             </select>
 			
         </div>
-	<input type="submit" value="Update Stats">
+		<div class="dropdown-group">
+            <label for="itemenchanment">Enchanments</label>
+            <select id="itemechantment" name="enchantment_helmet">
+				<option value="">Select Enchanment</option>
+                {{range .helmet_enchantmentlist}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+        </div>
     </div>
-
-    <!-- Update button -->
-    
-</form>
-
-<form id="itemForm" method="get" action="">
+	<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"> <!-- Chest From -->
     <div class="dropdown-group">
         <label for="itemSelect">Chest</label>
         <select id="itemSelect" name="itemchest">
@@ -110,10 +115,33 @@
             {{end}}
         </select>
     </div>
-    <input type="submit" value="Update Stats">
-</form>
-
-<form id="itemForm" method="get" action="">
+		<div class="dropdown-group">
+            <label for="rarityselect">Rarity</label>
+            <select id="rarityselect" name="rarityselect_chest">
+                <option value="">Select armor</option>
+                <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+            </select>
+			
+        </div>
+		<div id="colorBox" style="width: 20px; height: 20px; margin-left: 10px; border: 1px solid #000;"></div>
+		<div class="dropdown-group">
+            <label for="itemarmorrating">Item Armor Rating</label>
+            <select id="itemarmorrating" name="armorrating_chest">
+				<option value="">Select Armor Rating</option>
+                {{range .chest_ratinglist}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+			
+        </div>
+	</div>	
+	<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"> <!-- Gloves Form -->
     <div class="dropdown-group">
         <label for="itemSelect">Gloves</label>
         <select id="itemSelect" name="itemgloves">
@@ -123,10 +151,34 @@
             {{end}}
         </select>
     </div>
-    <input type="submit" value="Update Stats">
-</form>
-<form id="itemForm" method="get" action="">
-    <div class="dropdown-group">
+		<div class="dropdown-group">
+            <label for="rarityselect">Rarity</label>
+            <select id="rarityselect" name="rarityselect_gloves">
+                <option value="">Select armor</option>
+                <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+            </select>
+			
+        </div>
+		<div id="colorBox" style="width: 20px; height: 20px; margin-left: 10px; border: 1px solid #000;"></div>
+		<div class="dropdown-group">
+            <label for="itemarmorrating">Item Armor Rating</label>
+            <select id="itemarmorrating" name="armorrating_gloves">
+				<option value="">Select Armor Rating</option>
+                {{range .gloves_ratinglist}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+			
+        </div>
+    </div>	
+	<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"> <!-- Pants Form -->
+	<div class="dropdown-group">
         <label for="itemSelect">Pants</label>
         <select id="itemSelect" name="itempants">
 			<option value="">Select a pants</option>
@@ -135,10 +187,33 @@
             {{end}}
         </select>
     </div>
-    <input type="submit" value="Update Stats">
-</form>
-<form id="itemForm" method="get" action="">
-    <div class="dropdown-group">
+		<div class="dropdown-group">
+            <label for="rarityselect">Rarity</label>
+            <select id="rarityselect" name="rarityselect_pants" onchange="updateColorBox()">
+                <option value="">Select armor</option>
+                <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+            </select>
+			
+        </div>
+		<div id="colorBox" style="width: 20px; height: 20px; margin-left: 10px; border: 1px solid #000;"></div>
+		<div class="dropdown-group">
+            <label for="itemarmorrating">Item Armor Rating</label>
+            <select id="itemarmorrating" name="armorrating_pants">
+				<option value="">Select Armor Rating</option>
+                {{range .pants_ratinglist}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+        </div>
+	</div>
+	<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"> <!-- Boots Form -->
+	<div class="dropdown-group">
         <label for="itemSelect">Boots</label>
         <select id="itemSelect" name="itemboots">
 			<option value="">Select a boots</option>
@@ -147,10 +222,34 @@
             {{end}}
         </select>
     </div>
-    <input type="submit" value="Update Stats">
-</form>
-<form id="itemForm" method="get" action="">
-    <div class="dropdown-group">
+		<div class="dropdown-group">
+            <label for="rarityselect">Rarity</label>
+            <select id="rarityselect" name="rarityselect_boots">
+                <option value="">Select armor</option>
+                <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+            </select>
+			
+        </div>
+		<div id="colorBox" style="width: 20px; height: 20px; margin-left: 10px; border: 1px solid #000;"></div>
+		<div class="dropdown-group">
+            <label for="itemarmorrating">Item Armor Rating</label>
+            <select id="itemarmorrating" name="armorrating_boots">
+				<option value="">Select Armor Rating</option>
+                {{range .boots_ratinglist}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+			
+        </div>
+	</div>
+	<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;"> <!-- Cloak Form -->
+		<div class="dropdown-group">
         <label for="itemSelect">Cloak</label>
         <select id="itemSelect" name="itemcloak">
 			<option value="">Select a cloak</option>
@@ -158,11 +257,38 @@
                 <option value="{{.Name}}">{{.Name}}</option>
             {{end}}
         </select>
-    </div>
-    <input type="submit" value="Update Stats">
+        </div>
+		<div class="dropdown-group">
+			<label for="rarityselect">Rarity</label>
+            <select id="rarityselect" name="rarityselect_cloak">
+                <option value="">Select armor</option>
+                <option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+            </select>
+			
+        </div>
+		<div id="colorBox" style="width: 20px; height: 20px; margin-left: 10px; border: 1px solid #000;"></div>
+		<div class="dropdown-group">
+            <label for="itemarmorrating">Item Armor Rating</label>
+            <select id="itemarmorrating" name="armorrating_cloak">
+				<option value="">Select Armor Rating</option>
+                {{range .cloak_ratinglist}}
+                    <option value="{{.}}">{{.}}</option>
+                {{end}}
+            </select>
+			
+        </div>
+	</div>
+	     <input type="submit" value="Update Stats">
+</div>
+</form>
 
-	
-	<script>
+<script>
 function updateFormAction() {
     var classSelection = document.getElementById("classselection").value;
     if (classSelection) {
@@ -170,8 +296,9 @@ function updateFormAction() {
         document.getElementById("classForm").action = "/charbuilder/" + classSelection;
     } else {
         // Reset the action if no class is selected
-        document.getElementById("classForm").action = "";
-    }
+        document.getElementById("classForm").action = "";    
+	}
+		
 }
 </script>
 
@@ -213,13 +340,11 @@ function updateFormAction() {
 	
 	<p>Magic Resistance: {{ .computedstats.MagicResistance }} points</p>
 	
-	<p>Magic Resistance: {{ .computedstats.MagicResistance }} points</p>
+	<p>Armor Rating: {{ .computedstats.MagicResistance }} points</p>
 	
-	<p>Physical Damage Reduction {{ .computedstats.PhysicalDamageReduction }} </p>
+	<p>Physical Damage Reduction {{ .computedstats.PhysicalDamageReduction }}% </p>
 	
 	<p>test {{ .test }} </p>
-	<p>test {{ .testdo }} </p>
-	
 
 </body>
 </html>
