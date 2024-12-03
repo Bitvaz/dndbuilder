@@ -1,4 +1,4 @@
-Dark and Darker Character Statistics Calculator
+<h1>Dark and Darker Character Statistics Calculator</h1>
 
 Welcome to the Dark and Darker Character Statistics Calculator! 🎮
 
